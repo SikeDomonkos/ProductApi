@@ -5,7 +5,7 @@ namespace ProductApi
     public class Connect
     {
         public MySqlConnection Connection { get; set; }
-        public string ConnectionString;
+        private string ConnectionString;
 
         private string Host;
         private string Database;
